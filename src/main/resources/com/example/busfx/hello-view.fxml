@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="150.0" prefWidth="286.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.busfx.HelloController">
+   <children>
+       <Button layoutX="53.0" layoutY="98.0" prefHeight="27.0" prefWidth="77.0" text="Проверить" />
+   
+          <Label fx:id="noCrash" layoutX="158.0" layoutY="98.0" prefHeight="18.0" prefWidth="99.0" text="No Crash" textAlignment="CENTER" textFill="#00ff6a" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="kolvo" layoutX="28.0" layoutY="17.0" prefHeight="26.0" prefWidth="230.0" promptText="введите число мостов" />
+      <TextField fx:id="vysoty" layoutX="28.0" layoutY="50.0" prefHeight="26.0" prefWidth="230.0" promptText="введите высоты мостов через пробел" />
+      <Label fx:id="crash" layoutX="158.0" layoutY="98.0" prefHeight="18.0" prefWidth="99.0" text="Crash " textAlignment="CENTER" textFill="#ff0900" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
